@@ -32,7 +32,7 @@ const App = () => {
       <h1 className="text-white text-4xl font-bold">Task Manager</h1>
       <br />
       <br />
-      <h2 className="text-white text-2xl m-2">Welcome Youssef, here are your tasks for the day</h2>
+      <h2 className="text-white text-2xl m-2">Welcome Golden, here are your tasks for the day</h2>
       <Tasks />
     </div>
   )
