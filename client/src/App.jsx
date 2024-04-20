@@ -25,15 +25,16 @@ import background from './assets/juskteez-vu-mwhklqGVzck-unsplash.jpg'
 const App = () => {
   return (
 
-
-    <div className=" bg-cover bg-center w-screen h-screen flex flex-col items-center justify-center "
-    style={{backgroundImage: `url(${background})`}}
-    >
-      <h1 className="text-white text-4xl font-bold">Task Manager</h1>
-      <br />
-      <br />
-      <h2 className="text-white text-2xl m-2">Welcome Golden, here are your tasks for the day</h2>
-      <Tasks />
+<div className="flex flex-col min-h-screen">
+      <div className="bg-cover bg-center w-screen flex-grow flex flex-col items-center justify-center"
+           style={{backgroundImage: `url(${background})`}}>
+        <h1 className="text-white text-4xl font-bold">Task Manager</h1>
+        <br />
+        <br />
+        <h2 className="text-white text-2xl m-2">Welcome Golden, here are your tasks for the day</h2>
+        <Tasks />
+      </div>
+      <footer className="bg-dark-blue text-white text-center p-2">Copyright (c) 2024 GoldenVerse. Made with blood and passion for time management ❤️‍🔥</footer>
     </div>
   )
 }

@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     colors: {
+      'transparent': 'transparent',
       'zinc':'#18181B',
       'blue-800':'#1E40AF',
       'dark_green':'#14532D',

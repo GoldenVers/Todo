@@ -14,7 +14,7 @@ app.listen(port, () => {
 
 //connect to database
 
-mongoose.connect('mongodb+srv://<username>:<password>@cluster0.t6dukqt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://goldenyoussarts:youssef24@cluster0.t6dukqt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 .then(() => {
     console.log('Connected to database');
     })
